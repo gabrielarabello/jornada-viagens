@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Montserrat";
-  src: url(../fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf) format ("truetype");
   font-style: normal;
   font-display: swap;
 }
@@ -21,14 +21,22 @@
   --menu-text-weigth: 500;
 }
 
-* {
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: var(--titles-weigth);
-  color: var(--primary-color);
+body {
+    font-family: "Montserrat", sans-serif;
 }
