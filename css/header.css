@@ -14,17 +14,14 @@
   height: 64px;
 }
 
-.logo-mobile {
+.img-mobile {
   display: block;
 }
-<<<<<<< HEAD
-.logo-desktop {
-=======
 
 .img-desktop {
->>>>>>> bc3e234 (Corrige CSS do header)
   display: none;
 }
+
 .navigation-menu {
   margin-top: 24px;
 }
