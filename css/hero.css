@@ -1,6 +1,9 @@
-.hero-img {
+.hero.hero-img,
+.bottom-hero-img {
   width: 100%;
   height: 400px;
+}
+.hero.hero-img{
   background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
